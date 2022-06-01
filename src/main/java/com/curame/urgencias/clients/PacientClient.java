@@ -1,10 +1,13 @@
 package com.curame.urgencias.clients;
 
 import com.curame.urgencias.models.entity.Pacient;
+
+import java.util.List;
+
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+
 
 @FeignClient(name = "servicio-registros")
 public interface PacientClient {

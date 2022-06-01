@@ -1,6 +1,7 @@
 package com.curame.urgencias.services;
 
 import com.curame.urgencias.clients.PacientClient;
+import com.curame.urgencias.models.entity.EmergencyRecord;
 import com.curame.urgencias.models.entity.Pacient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class ServicePacientImpl implements IServicePacient{

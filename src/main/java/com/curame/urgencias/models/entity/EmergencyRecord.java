@@ -10,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class EmergencyRecord {
+public class EmergencyRecord{
 
     private Long id;
     private Boolean allergies;
